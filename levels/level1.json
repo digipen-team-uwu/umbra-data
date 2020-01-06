@@ -1,0 +1,826 @@
+{
+"objects" : [
+{
+	"type" : "ParticleEmitter",
+		"transform" :
+		{
+			"translation" : [0.000000, 0.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [0.200000, 0.200000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, -0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+"inverse mass" : 1.000000
+},
+		"shader" :
+		{
+			"vertex" : "./shaders/pass-thru-pos2d-clr.vert",
+			"fragment" : "./shaders/basic-color.frag"
+		},
+		"texture" : "./assets/particles/VFX_Flame_SpriteSheet.png"
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotation" : -131.034225,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-20.000000, 0.000000, 20.000000, 1.000000],
+			"rotation" : -126.952271,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-40.000000, 0.000000, 40.000000, 2.000000],
+			"rotation" : -144.153336,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-60.000000, 0.000000, 60.000000, 3.000000],
+			"rotation" : -119.761543,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-80.000000, 0.000000, 80.000000, 4.000000],
+			"rotation" : -116.919502,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Player",
+		"transform" :
+		{
+			"translation" : [-100.000000, 0.000000, 100.000000, 5.000000],
+			"rotation" : -140.832809,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-120.000000, 0.000000, 120.000000, 6.000000],
+			"rotation" : -115.355629,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-140.000000, 0.000000, 140.000000, 7.000000],
+			"rotation" : -118.477570,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-160.000000, 0.000000, 160.000000, 8.000000],
+			"rotation" : -118.827217,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-180.000000, 0.000000, 180.000000, 9.000000],
+			"rotation" : -120.136124,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-200.000000, 0.000000, 200.000000, 10.000000],
+			"rotation" : -148.419846,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-220.000000, 0.000000, 220.000000, 11.000000],
+			"rotation" : -117.670326,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-240.000000, 0.000000, 240.000000, 12.000000],
+			"rotation" : -112.562134,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-260.000000, 0.000000, 260.000000, 13.000000],
+			"rotation" : -142.167374,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-280.000000, 0.000000, 280.000000, 14.000000],
+			"rotation" : -123.624603,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Player",
+		"transform" :
+		{
+			"translation" : [-300.000000, 0.000000, 300.000000, 15.000000],
+			"rotation" : -119.318169,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-320.000000, 0.000000, 320.000000, 16.000000],
+			"rotation" : -132.665771,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-340.000000, 0.000000, 340.000000, 17.000000],
+			"rotation" : -125.962677,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-360.000000, 0.000000, 360.000000, 18.000000],
+			"rotation" : -132.147812,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-380.000000, 0.000000, 380.000000, 19.000000],
+			"rotation" : -123.774353,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-400.000000, 0.000000, 400.000000, 20.000000],
+			"rotation" : -145.661224,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-420.000000, 0.000000, 420.000000, 21.000000],
+			"rotation" : -127.314018,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-440.000000, 0.000000, 440.000000, 22.000000],
+			"rotation" : -131.621536,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-460.000000, 0.000000, 460.000000, 23.000000],
+			"rotation" : -134.597931,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-480.000000, 0.000000, 480.000000, 24.000000],
+			"rotation" : -140.520447,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Player",
+		"transform" :
+		{
+			"translation" : [-500.000000, 0.000000, 500.000000, 25.000000],
+			"rotation" : -126.512421,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-520.000000, 0.000000, 520.000000, 26.000000],
+			"rotation" : -125.906601,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-540.000000, 0.000000, 540.000000, 27.000000],
+			"rotation" : -112.727417,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-560.000000, 0.000000, 560.000000, 28.000000],
+			"rotation" : -140.723618,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-580.000000, 0.000000, 580.000000, 29.000000],
+			"rotation" : -129.522858,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-600.000000, 0.000000, 600.000000, 30.000000],
+			"rotation" : -142.065094,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-620.000000, 0.000000, 620.000000, 31.000000],
+			"rotation" : -138.304474,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-640.000000, 0.000000, 640.000000, 32.000000],
+			"rotation" : -110.111504,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-660.000000, 0.000000, 660.000000, 33.000000],
+			"rotation" : -129.759872,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-680.000000, 0.000000, 680.000000, 34.000000],
+			"rotation" : -114.403938,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Player",
+		"transform" :
+		{
+			"translation" : [-700.000000, 0.000000, 700.000000, 35.000000],
+			"rotation" : -145.773499,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-720.000000, 0.000000, 720.000000, 36.000000],
+			"rotation" : -139.647720,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-740.000000, 0.000000, 740.000000, 37.000000],
+			"rotation" : -112.966919,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-760.000000, 0.000000, 760.000000, 38.000000],
+			"rotation" : -113.583809,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-780.000000, 0.000000, 780.000000, 39.000000],
+			"rotation" : -121.616051,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-800.000000, 0.000000, 800.000000, 40.000000],
+			"rotation" : -134.389709,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-820.000000, 0.000000, 820.000000, 41.000000],
+			"rotation" : -137.976913,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-840.000000, 0.000000, 840.000000, 42.000000],
+			"rotation" : -137.209549,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-860.000000, 0.000000, 860.000000, 43.000000],
+			"rotation" : -133.714417,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-880.000000, 0.000000, 880.000000, 44.000000],
+			"rotation" : -119.209831,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Player",
+		"transform" :
+		{
+			"translation" : [-900.000000, 0.000000, 900.000000, 45.000000],
+			"rotation" : -125.776573,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-920.000000, 0.000000, 920.000000, 46.000000],
+			"rotation" : -113.048111,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-940.000000, 0.000000, 940.000000, 47.000000],
+			"rotation" : -130.127823,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Cyclone",
+		"transform" :
+		{
+			"translation" : [-960.000000, 0.000000, 960.000000, 48.000000],
+			"rotation" : -110.768143,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Text_",
+		"transform" :
+		{
+			"translation" : [-980.000000, 0.000000, 980.000000, 49.000000],
+			"rotation" : -126.050598,
+			"scale" : [100.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+{
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+"rotational velocity" : -3.140000,
+"partial" : true},
+		"partial" : true
+}]
+}

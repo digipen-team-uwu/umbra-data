@@ -1,0 +1,13 @@
+{
+	"type" : "Rock_",
+		"transform" :
+		{
+			"translation" : [12592.591797, 3333.332031, -25.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [1365.339966, 406.704010, 1.000000]
+		},
+		"texture" : "./assets/props/Props_RockSlope_02.png",
+		"collider":{
+			"type" : "rectangle"
+		}
+}

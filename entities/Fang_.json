@@ -1,0 +1,38 @@
+{
+  "type": "Fang_",
+  "transform": {
+    "translation": [
+      500.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "rotation": 0.0,
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "spineSkeleton": {
+    "name": "Fang",
+    "json": "./assets/spine/Fang/Creature_Fang_final.json",
+    "atlas": "./assets/spine/Fang/Creature_Fang_final.atlas",
+    "skin": "default",
+    "defaultAnim": "Idle",
+    "scaleOffset": 0.0005
+  },
+  "physics":{
+    "type":"dynamic"
+  },
+  "collider" :{
+    "type" : "polygon",
+    "center":[0.0,0.0],
+    "vertices":[
+      [0.3, 0.0],
+      [-0.3, 0.0],
+      [-0.3, -0.5],
+      [0.3, -0.5]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "Perception",
+  "transform": {
+    "translation": [
+      -100.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rotation": 0.0,
+    "scale": [
+      0.10,
+      0.10,
+      1.0
+    ]
+  },
+  "spineSkeleton": {
+    "name": "Perception",
+    "json": "./assets/spine/Perception/Enemy02__perception.json",
+    "atlas": "./assets/spine/Perception/Enemy02__perception.atlas.txt",
+    "skin": "",
+    "defaultAnim": "Idle",
+    "scaleOffset": 0.0005
+  },
+  "physics":{
+    "type":"STATIC",
+    "inverse mass": 0.000000
+  }
+} 

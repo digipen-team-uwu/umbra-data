@@ -1,0 +1,25 @@
+{
+  "player_jump": "assets/sound/DeltaBlade/Sword_Throw1.wav",
+  "player_dash": "assets/sound/DeltaBlade/Sword_Throw2.wav",
+  "player_hurt": "assets/sound/Knightmare/sfxType.wav",
+  "player_dead": "",
+  "player_land": "assets/sound/DeltaBlade/Player_Land.wav",
+  "player_step": "",
+  
+  "perception_attack": "",
+  "perception_alert": "",
+  "perception_hurt": "assets/sound/Knightmare/sfxType.wav",
+  "perception_idle": "",
+  "perception_dead": "",
+
+  "fang_attack": "",
+  "fang_alert": "",
+  "fang_hurt": "assets/sound/Knightmare/sfxType.wav",
+  "fang_idle": "",
+  "fang_dead": "",
+
+  "music_debug": "assets/sound/beat.wav",
+  "music_calm1": "assets/sound/Knightmare/music/thePeasant.mp3",
+  "music_conflict1": "",
+  "music_win": ""
+}

@@ -1,0 +1,4031 @@
+{
+	"objects": [
+		{
+			"type": "LevelEnd",
+			"name": "End Crystal",
+			"transform": {
+				"translation": [
+					9783.548828,
+					3970.315918,
+					-502.165009,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					299.182007,
+					413.313995,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Crystal_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Player",
+			"name": "Player",
+			"transform": {
+				"translation": [
+					1022.442810,
+					979.565002,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					200.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "DYNAMIC",
+				"velocity": [
+					-1.811947,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					-800.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"behavior": true,
+			"partial": true
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 1 foreground Pillar",
+			"transform": {
+				"translation": [
+					4200.000000,
+					1300.000000,
+					300.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					800.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Pillar_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ground 1",
+			"transform": {
+				"translation": [
+					769.229980,
+					370.371002,
+					-18.518999,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					6000.000000,
+					1181.546021,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "Lantern 1",
+			"transform": {
+				"translation": [
+					2020.904053,
+					1290.000000,
+					-15.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					375.000000,
+					937.500000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Lantern_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Wall_",
+			"name": "brick bg wall 1",
+			"transform": {
+				"translation": [
+					4800.000000,
+					1090.000000,
+					-100.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1200.000000,
+					1200.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Bricks.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ground 2",
+			"transform": {
+				"translation": [
+					5462.962891,
+					630.000000,
+					-26.316000,
+					1.000000
+				],
+				"rotation": 6.250000,
+				"scale": [
+					5000.000000,
+					627.323975,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Wall_",
+			"name": "brick bg wall 2",
+			"transform": {
+				"translation": [
+					7197.587891,
+					1090.000000,
+					-100.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1200.000000,
+					1200.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Bricks.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "RockBG",
+			"name": "huge rock bg - temp",
+			"transform": {
+				"translation": [
+					5769.229980,
+					1153.845947,
+					-5000.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					30000.000000,
+					15000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area1/1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Wall_",
+			"name": "brick bg wall 2",
+			"transform": {
+				"translation": [
+					6000.000000,
+					1090.000000,
+					-100.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1200.000000,
+					1200.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Bricks.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 1 background Pillar",
+			"transform": {
+				"translation": [
+					4200.432617,
+					1300.000000,
+					-50.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					800.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Pillar_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "CliffFace",
+			"name": "Cliff above Archway 1",
+			"transform": {
+				"translation": [
+					3404.256104,
+					2553.000000,
+					-37.036999,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					-2000.000000,
+					2000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "CliffFace",
+			"name": "Cliff Above Archway 2",
+			"transform": {
+				"translation": [
+					8500.000000,
+					2553.000000,
+					100.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					2000.000000,
+					2000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 2 background Pillar",
+			"transform": {
+				"translation": [
+					7777.776855,
+					1300.000000,
+					-50.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					815.414978,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Pillar_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 2 foreground Pillar",
+			"transform": {
+				"translation": [
+					7777.776855,
+					1300.000000,
+					300.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					800.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Pillar_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "CliffFace",
+			"name": "Cliff High Above Archway 2",
+			"transform": {
+				"translation": [
+					9900.000000,
+					4850.000000,
+					150.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					2780.000000,
+					3000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Torch",
+			"name": "Tunnel Torch 1",
+			"transform": {
+				"translation": [
+					5200.000000,
+					1250.000000,
+					-50.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					105.000000,
+					225.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_FrontTorch.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Torch",
+			"name": "Tunnel Torch 2",
+			"transform": {
+				"translation": [
+					6481.479980,
+					1250.000000,
+					-50.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					105.000000,
+					225.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_FrontTorch.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Slope 1",
+			"transform": {
+				"translation": [
+					8888.888672,
+					777.296997,
+					-46.884998,
+					1.000000
+				],
+				"rotation": 0.273000,
+				"scale": [
+					2544.527100,
+					1142.161011,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ground 3",
+			"transform": {
+				"translation": [
+					8240.740234,
+					555.557007,
+					-4.000000,
+					1.000000
+				],
+				"rotation": 6.283000,
+				"scale": [
+					4096.000000,
+					815.414978,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "CliffFace",
+			"name": "Spawn Back Cliff",
+			"transform": {
+				"translation": [
+					600.000000,
+					3076.000000,
+					5.000000,
+					1.000000
+				],
+				"rotation": -0.180000,
+				"scale": [
+					4096.000000,
+					-6000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Slope 1 Outcropping 1",
+			"transform": {
+				"translation": [
+					9043.800781,
+					851.325989,
+					2.468000,
+					1.000000
+				],
+				"rotation": 0.131000,
+				"scale": [
+					1015.794983,
+					909.669006,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ceiling 1",
+			"transform": {
+				"translation": [
+					1666.667969,
+					3425.924072,
+					-18.518999,
+					1.000000
+				],
+				"rotation": 3.098000,
+				"scale": [
+					5000.000000,
+					1498.079956,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ground 4",
+			"transform": {
+				"translation": [
+					10674.087891,
+					648.148010,
+					-18.518999,
+					1.000000
+				],
+				"rotation": 6.248000,
+				"scale": [
+					4096.000000,
+					1829.931030,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "Lantern 2",
+			"transform": {
+				"translation": [
+					11638.835938,
+					1838.370972,
+					-17.273001,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					375.000000,
+					937.500000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Lantern_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Top Platform",
+			"transform": {
+				"translation": [
+					14359.925781,
+					5355.596191,
+					-42.053001,
+					1.000000
+				],
+				"rotation": 6.000000,
+				"scale": [
+					4000.000000,
+					2824.394043,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "Crystal",
+			"transform": {
+				"translation": [
+					13846.152344,
+					3214.284912,
+					76.922997,
+					1.000000
+				],
+				"rotation": 0.423000,
+				"scale": [
+					277.000000,
+					482.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Crystal_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Second Platform",
+			"transform": {
+				"translation": [
+					13790.968750,
+					2857.145020,
+					-18.518999,
+					1.000000
+				],
+				"rotation": 5.902000,
+				"scale": [
+					1466.662964,
+					648.478027,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ceiling 1",
+			"transform": {
+				"translation": [
+					4907.408203,
+					1851.852051,
+					-18.518999,
+					1.000000
+				],
+				"rotation": 3.083000,
+				"scale": [
+					1858.375977,
+					692.156006,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ceiling 2",
+			"transform": {
+				"translation": [
+					6538.462891,
+					1890.000000,
+					-20.000000,
+					1.000000
+				],
+				"rotation": 3.040000,
+				"scale": [
+					2654.818115,
+					730.081970,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Third Platform",
+			"transform": {
+				"translation": [
+					12306.740234,
+					3228.198975,
+					-25.000000,
+					1.000000
+				],
+				"rotation": 6.198000,
+				"scale": [
+					1365.339966,
+					406.704010,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "First Platform",
+			"transform": {
+				"translation": [
+					13790.968750,
+					100000.366943,
+					-20.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1782.524048,
+					393.855011,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Solid",
+			"name": "Ground 1 Collider",
+			"transform": {
+				"translation": [
+					-13449.477539,
+					430.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					50000.000000,
+					899.130005,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Slope 1 Collider",
+			"transform": {
+				"translation": [
+					9128.921875,
+					826.889893,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.364000,
+				"scale": [
+					1869.608032,
+					824.896973,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Ground 4 Collider",
+			"transform": {
+				"translation": [
+					11243.042969,
+					790.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					2720.538086,
+					1255.922974,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "First Platform Collider",
+			"transform": {
+				"translation": [
+					13914.656250,
+					1175.015991,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.225000,
+				"scale": [
+					2031.540039,
+					1033.505981,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Second Platform Collider",
+			"transform": {
+				"translation": [
+					14829.929688,
+					1793.442993,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.765000,
+				"scale": [
+					671.276001,
+					453.431000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Third Platform Collider",
+			"transform": {
+				"translation": [
+					13807.105469,
+					2944.162109,
+					0.000000,
+					1.000000
+				],
+				"rotation": 2.874000,
+				"scale": [
+					1329.121948,
+					265.326996,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Top Platform Collider",
+			"transform": {
+				"translation": [
+					10968.537109,
+					3248.731934,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					3867.652100,
+					214.085999,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Spawn Back Cliff Collider",
+			"transform": {
+				"translation": [
+					-627.000000,
+					2717.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					2012.326050,
+					4096.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Cliffs Above Archway 2 Collider",
+			"transform": {
+				"translation": [
+					8432.056641,
+					4100.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 2.705000,
+				"scale": [
+					941.945007,
+					5000.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Cliff Above Archway 1 Collider",
+			"transform": {
+				"translation": [
+					4250.873047,
+					2717.770020,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.285000,
+				"scale": [
+					941.945007,
+					2055.141113,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Ceiling 2 Collider",
+			"transform": {
+				"translation": [
+					6062.716797,
+					1742.160034,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					3867.652100,
+					214.085999,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Ceiling 1 Collider",
+			"transform": {
+				"translation": [
+					2299.652100,
+					3135.888916,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4500.000000,
+					556.607971,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Hazard",
+			"name": "Death Plane",
+			"transform": {
+				"translation": [
+					8153.311035,
+					-69.685997,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					100000.000000,
+					556.607971,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG1 Rock 1",
+			"transform": {
+				"translation": [
+					3147.208984,
+					1015.229004,
+					-60.914001,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1000.000000,
+					500.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Rock_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Slope 1 Outcropping 2",
+			"transform": {
+				"translation": [
+					9561.998047,
+					801.973022,
+					44.445000,
+					1.000000
+				],
+				"rotation": 6.167000,
+				"scale": [
+					682.254028,
+					586.234009,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG3 Cliff Left",
+			"transform": {
+				"translation": [
+					340.632996,
+					1800.485962,
+					-430.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1395.000000,
+					2300.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_left_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG3 Cliff Right",
+			"transform": {
+				"translation": [
+					3649.635010,
+					1897.808960,
+					-430.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1595.000000,
+					2300.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_right_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG4 Setpiece",
+			"transform": {
+				"translation": [
+					1605.839966,
+					1300.000000,
+					-1216.545044,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4800.000000,
+					1800.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Rock 2",
+			"transform": {
+				"translation": [
+					228.832001,
+					924.635010,
+					1272.311035,
+					1.000000
+				],
+				"rotation": 5.550000,
+				"scale": [
+					843.578003,
+					562.388000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Rock 1",
+			"transform": {
+				"translation": [
+					949.968994,
+					900.000000,
+					1272.000000,
+					1.000000
+				],
+				"rotation": 6.136000,
+				"scale": [
+					670.263000,
+					244.705994,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Waterfall 1",
+			"transform": {
+				"translation": [
+					629.539001,
+					1210.654053,
+					-1714.286011,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					2261.233887,
+					1487.657959,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/waterfall1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Ceiling",
+			"transform": {
+				"translation": [
+					1694.916016,
+					2372.883057,
+					-435.834991,
+					1.000000
+				],
+				"rotation": 3.141590,
+				"scale": [
+					-3500.940918,
+					783.504028,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock0.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Cliff Right",
+			"transform": {
+				"translation": [
+					3022.508057,
+					1864.951050,
+					-1607.717041,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					-2500.000000,
+					2048.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_left_lit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Crystal Right",
+			"transform": {
+				"translation": [
+					2970.000000,
+					1598.062988,
+					-1300.000000,
+					1.000000
+				],
+				"rotation": 0.274000,
+				"scale": [
+					763.669006,
+					624.822021,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/crystal0.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Cliff Left",
+			"transform": {
+				"translation": [
+					-64.308998,
+					1993.567993,
+					-1607.717041,
+					1.000000
+				],
+				"rotation": 5.778000,
+				"scale": [
+					-1700.000000,
+					2173.124023,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_right_lit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG5 Ceiling 2",
+			"transform": {
+				"translation": [
+					1694.916016,
+					3244.552979,
+					-435.799988,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					1071.115967,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG2 Stalactite",
+			"transform": {
+				"translation": [
+					5333.333984,
+					1904.761963,
+					609.523987,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					500.000000,
+					955.741028,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Stalactite_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Black 3",
+			"transform": {
+				"translation": [
+					6857.143066,
+					5550.000000,
+					145.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffMiddle.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG5 Tunnel Rock",
+			"transform": {
+				"translation": [
+					5340.699219,
+					577.043030,
+					223.449997,
+					1.000000
+				],
+				"rotation": 0.154000,
+				"scale": [
+					-1550.000000,
+					936.236023,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Black 2",
+			"transform": {
+				"translation": [
+					5783.973145,
+					3150.000000,
+					-264.808014,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					2254.945068,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffMiddle.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Brick Floor 1",
+			"transform": {
+				"translation": [
+					6100.000000,
+					820.000000,
+					-10.000000,
+					1.000000
+				],
+				"rotation": 6.268000,
+				"scale": [
+					2457.604004,
+					1014.255005,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Black 1",
+			"transform": {
+				"translation": [
+					3275.261963,
+					-766.551025,
+					-655.052002,
+					1.000000
+				],
+				"rotation": 3.153000,
+				"scale": [
+					18000.000000,
+					2583.195068,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffMiddle.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Ceiling 2",
+			"transform": {
+				"translation": [
+					5505.227051,
+					1602.786987,
+					-41.812000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1000.000000,
+					508.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickCeiling_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 1 Pillar Support",
+			"transform": {
+				"translation": [
+					4181.522949,
+					845.770996,
+					310.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					497.902008,
+					305.384003,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Rock 4",
+			"transform": {
+				"translation": [
+					2773.906006,
+					772.640991,
+					843.572021,
+					1.000000
+				],
+				"rotation": 0.107000,
+				"scale": [
+					1092.100952,
+					433.214996,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Rock 3",
+			"transform": {
+				"translation": [
+					1811.272949,
+					924.635010,
+					1269.157959,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					555.135010,
+					155.651993,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock2.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG3 Rock 3",
+			"transform": {
+				"translation": [
+					1785.941040,
+					653.918030,
+					554.781006,
+					1.000000
+				],
+				"rotation": 0.239000,
+				"scale": [
+					1622.234009,
+					818.703003,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Rock_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "FG2 Crystal 1",
+			"transform": {
+				"translation": [
+					1076.630981,
+					823.307007,
+					696.643982,
+					1.000000
+				],
+				"rotation": 5.404000,
+				"scale": [
+					277.000000,
+					482.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Crystal_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG3 Rock 1",
+			"transform": {
+				"translation": [
+					671.310974,
+					493.984009,
+					392.653015,
+					1.000000
+				],
+				"rotation": 0.382000,
+				"scale": [
+					1369.662964,
+					744.500000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Cave_Floor_Right.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG3 Rock 4",
+			"transform": {
+				"translation": [
+					3229.893066,
+					569.979980,
+					210.259003,
+					1.000000
+				],
+				"rotation": 6.044000,
+				"scale": [
+					1198.457031,
+					588.856995,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Cave_Floor_Left.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "FG2 Crystal 2",
+			"transform": {
+				"translation": [
+					2925.902100,
+					772.640991,
+					402.786987,
+					1.000000
+				],
+				"rotation": 0.259000,
+				"scale": [
+					121.930000,
+					316.483002,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Shards_03.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG3 Rock 5",
+			"transform": {
+				"translation": [
+					4137.505859,
+					527.929993,
+					297.114990,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					950.460999,
+					616.043030,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_04.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Ceiling 3",
+			"transform": {
+				"translation": [
+					6470.227051,
+					1625.000000,
+					-39.000000,
+					1.000000
+				],
+				"rotation": 0.054000,
+				"scale": [
+					1000.000000,
+					508.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickCeiling_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Broken Crystal",
+			"transform": {
+				"translation": [
+					6266.094238,
+					404.660004,
+					-6.000000,
+					1.000000
+				],
+				"rotation": 4.577000,
+				"scale": [
+					221.000000,
+					351.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CrystalShards_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Ceiling 1",
+			"transform": {
+				"translation": [
+					4530.387207,
+					1670.000000,
+					-41.000000,
+					1.000000
+				],
+				"rotation": 6.151999,
+				"scale": [
+					1000.000000,
+					508.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickCeiling_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Stalactite 3",
+			"transform": {
+				"translation": [
+					7168.414063,
+					1937.076050,
+					402.221008,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					856.604980,
+					856.604980,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Stalactite_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG2 Rock 1",
+			"transform": {
+				"translation": [
+					4539.878906,
+					466.257996,
+					510.428986,
+					1.000000
+				],
+				"rotation": 1.037000,
+				"scale": [
+					809.156006,
+					733.770020,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Rock_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Broken Statue",
+			"transform": {
+				"translation": [
+					6069.895996,
+					502.757996,
+					41.692001,
+					1.000000
+				],
+				"rotation": 0.378000,
+				"scale": [
+					-251.000000,
+					910.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/statue3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Broken Floor",
+			"transform": {
+				"translation": [
+					6118.944824,
+					404.660004,
+					-7.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1000.000000,
+					500.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Cave_Floor_Middle.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Tunnel Stalactite 2",
+			"transform": {
+				"translation": [
+					6224.678223,
+					1878.453003,
+					1081.545044,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					-500.000000,
+					1106.354980,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Stalactite_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 2 Extra Rock",
+			"transform": {
+				"translation": [
+					7173.514160,
+					576.333984,
+					95.647003,
+					1.000000
+				],
+				"rotation": 0.316000,
+				"scale": [
+					-1200.000000,
+					500.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG2 Broken Pillar",
+			"transform": {
+				"translation": [
+					3656.440918,
+					662.578003,
+					255.214996,
+					1.000000
+				],
+				"rotation": 3.523000,
+				"scale": [
+					514.000000,
+					539.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "FG1 Crystal 1",
+			"transform": {
+				"translation": [
+					4034.544922,
+					851.325989,
+					1089.569946,
+					1.000000
+				],
+				"rotation": 0.205000,
+				"scale": [
+					359.351013,
+					298.175995,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/crystal1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 2 Pillar Support",
+			"transform": {
+				"translation": [
+					7760.641113,
+					851.325989,
+					298.580994,
+					1.000000
+				],
+				"rotation": 0.035000,
+				"scale": [
+					866.711975,
+					414.410004,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Tunnel Rock 1",
+			"transform": {
+				"translation": [
+					5169.647949,
+					703.270020,
+					866.132019,
+					1.000000
+				],
+				"rotation": 6.086000,
+				"scale": [
+					836.390991,
+					363.872986,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Tunnel Rock 2",
+			"transform": {
+				"translation": [
+					6977.313965,
+					846.106995,
+					1032.495972,
+					1.000000
+				],
+				"rotation": 0.173000,
+				"scale": [
+					1127.599976,
+					394.290009,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/rock0.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Archway 2 Rock Support",
+			"transform": {
+				"translation": [
+					7762.108887,
+					331.084015,
+					267.321014,
+					1.000000
+				],
+				"rotation": 6.237000,
+				"scale": [
+					1205.452026,
+					831.262024,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_RockSlope_04.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG2 Ruins Statue 1",
+			"transform": {
+				"translation": [
+					9265.884766,
+					2035.779053,
+					-1147.439941,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					614.028992,
+					1869.864014,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/statue2.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG1 Archway 2 Cliff",
+			"transform": {
+				"translation": [
+					8204.813477,
+					2208.513916,
+					-395.000000,
+					1.000000
+				],
+				"rotation": 0.271000,
+				"scale": [
+					2428.292969,
+					2519.259033,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_left_lit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG2 Ruins Pillars 1",
+			"transform": {
+				"translation": [
+					10919.185547,
+					2183.837891,
+					-653.916992,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					1849.649048,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG2 Ruins Statue 3",
+			"transform": {
+				"translation": [
+					11412.708984,
+					2011.104004,
+					-1147.439941,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					846.497986,
+					1842.067993,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/statue1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 2 Bottom",
+			"transform": {
+				"translation": [
+					10820.482422,
+					1196.792969,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					191.000000,
+					643.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar5.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 2 Top",
+			"transform": {
+				"translation": [
+					10820.482422,
+					2257.864990,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					514.000000,
+					292.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 2 Bottom",
+			"transform": {
+				"translation": [
+					10820.482422,
+					1196.792969,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					191.000000,
+					643.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar5.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 2 Top",
+			"transform": {
+				"translation": [
+					10820.482422,
+					2257.864990,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					514.000000,
+					292.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 3 Bottom",
+			"transform": {
+				"translation": [
+					11824.998047,
+					1050.000000,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					191.000000,
+					330.248993,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar2.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Pillar 3 Top",
+			"transform": {
+				"translation": [
+					11824.998047,
+					2125.000000,
+					698.333984,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					514.000000,
+					563.208984,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG2 Ruins Statue 2",
+			"transform": {
+				"translation": [
+					10302.281250,
+					1986.427979,
+					-1147.439941,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					634.244019,
+					1834.488037,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/statue0.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG1 Ruins Cliff Left",
+			"transform": {
+				"translation": [
+					8400.000000,
+					2575.000000,
+					-460.000000,
+					1.000000
+				],
+				"rotation": 6.146000,
+				"scale": [
+					-2150.405029,
+					2718.722900,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_right_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG4 Ruins Cliff Left",
+			"transform": {
+				"translation": [
+					9650.000000,
+					2125.000000,
+					-2315.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					7000.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_left_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ruins Upper Floor 1",
+			"transform": {
+				"translation": [
+					9796.953125,
+					3260.000000,
+					-485.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1536.005981,
+					358.408997,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ruins Upper Floor 2",
+			"transform": {
+				"translation": [
+					11332.958984,
+					3260.000000,
+					-485.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					1536.005981,
+					358.408997,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG1 Ruins Crystal 1",
+			"transform": {
+				"translation": [
+					8175.001953,
+					1750.000000,
+					-280.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					-732.168030,
+					683.528015,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/crystal0.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG3 Ruins Waterfall 1",
+			"transform": {
+				"translation": [
+					10850.000000,
+					1625.000000,
+					-2205.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					1989.125000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/waterfall1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG1 Ruins Statue Ground",
+			"transform": {
+				"translation": [
+					10600.000000,
+					1025.000000,
+					-1100.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					4096.000000,
+					1758.725952,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "Brazier",
+			"transform": {
+				"translation": [
+					9796.953125,
+					3590.000000,
+					-470.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					358.669006,
+					704.333008,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_Brazier_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG3 Ruins Cliff Right",
+			"transform": {
+				"translation": [
+					13889.921875,
+					2560.297119,
+					-606.060974,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					3201.822998,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_right_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG1 Ruins Huge Cliff 2",
+			"transform": {
+				"translation": [
+					15349.410156,
+					2362.397949,
+					27.211000,
+					1.000000
+				],
+				"rotation": 3.901000,
+				"scale": [
+					4096.000000,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ruins Huge Pillar",
+			"transform": {
+				"translation": [
+					13865.183594,
+					1323.437988,
+					-22.263000,
+					1.000000
+				],
+				"rotation": 1.045000,
+				"scale": [
+					2718.004883,
+					2130.330078,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/pillar.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ruins Wall Torch 1",
+			"transform": {
+				"translation": [
+					9313.542969,
+					3772.417969,
+					-383.000000,
+					1.000000
+				],
+				"rotation": 6.186000,
+				"scale": [
+					268.515991,
+					372.372986,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_SideTorch.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Ruins Cross Beam",
+			"transform": {
+				"translation": [
+					11341.992188,
+					2436.611084,
+					729.747009,
+					1.000000
+				],
+				"rotation": 4.713000,
+				"scale": [
+					191.000000,
+					1000.577026,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar5.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG1 Ruins Cliff Right",
+			"transform": {
+				"translation": [
+					14409.398438,
+					2560.297119,
+					-51.948002,
+					1.000000
+				],
+				"rotation": 3.260000,
+				"scale": [
+					3249.950928,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_left_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG1 Ruins Huge Cliff 1",
+			"transform": {
+				"translation": [
+					14805.195313,
+					1348.176025,
+					47.000000,
+					1.000000
+				],
+				"rotation": 2.432000,
+				"scale": [
+					4096.000000,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_CliffFace_01.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "BG2 Ruins Huge Ceiling",
+			"transform": {
+				"translation": [
+					11317.253906,
+					5553.494141,
+					-51.948002,
+					1.000000
+				],
+				"rotation": 1.675000,
+				"scale": [
+					2882.655029,
+					4096.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area3/cliff_right_unlit.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "Ruins Brazier Wall",
+			"transform": {
+				"translation": [
+					9041.435547,
+					3871.366943,
+					-383.425995,
+					1.000000
+				],
+				"rotation": 4.616000,
+				"scale": [
+					1200.000000,
+					924.583984,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/Props_BrickFloor_02.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Ruins Pillar 3 Upper",
+			"transform": {
+				"translation": [
+					11861.472656,
+					2535.561035,
+					698.000000,
+					1.000000
+				],
+				"rotation": 3.140000,
+				"scale": [
+					433.166992,
+					271.049988,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Dropped",
+			"name": "BG2 Ruins Statue 4",
+			"transform": {
+				"translation": [
+					12380.953125,
+					1966.604980,
+					-1147.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					483.828003,
+					1745.302002,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/bg/area2/statue3.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Prop_",
+			"name": "FG1 Ruins Pillar 2 Upper",
+			"transform": {
+				"translation": [
+					10822.509766,
+					2666.000000,
+					698.000000,
+					1.000000
+				],
+				"rotation": 3.141590,
+				"scale": [
+					514.000000,
+					539.000000,
+					1.000000
+				]
+			},
+			"texture": {
+				"filepath": "./assets/props/pillar1.png",
+				"color": [
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "ParticleEmitter",
+			"transform": {
+				"translation": [
+					17212.442810,
+					5644.565002,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"behavior": "Snow2",
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "ParticleEmitter",
+			"transform": {
+				"translation": [
+					3275.442810,
+					2160.565002,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"behavior": "Snow",
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Perception",
+			"name": "Perception",
+			"transform": {
+				"translation": [
+					3832.751953,
+					1150.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					513.793030,
+					556.607971,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"behavior": true,
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Fang_",
+			"name": "Fang",
+			"transform": {
+				"translation": [
+					7735.192871,
+					1150.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					513.793030,
+					556.607971,
+					1.000000
+				]
+			},
+			"behavior": true,
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		}
+	]
+}

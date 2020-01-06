@@ -1,0 +1,123 @@
+{
+      "behavior": {
+        "particleevents": [
+          {
+            "sprite": [
+              {
+                "texture": "./assets/particles/ash0.png"
+              }
+            ],
+            "color": [0.8,0.8,0.8,0.3],
+            "end color": [0.0,0.0,0.0,0.3],
+            "color rate": 0.3,
+            "scale": [
+              [
+                20.0,
+                20.0,
+                1.0
+              ],
+              [
+                30.0,
+                30.0,
+                1.0
+              ]
+            ],
+            "end scale": [
+              [
+                10.0,
+                10.0,
+                1.0
+              ],
+              [
+                20.0,
+                20.0,
+                1.0
+              ]
+            ],
+            "scale rate": [
+              0.05,
+              0.1
+            ],
+            "particles per emission": [
+              50,
+              100
+            ],
+            "emission rate": [
+              0.2,
+              0.4
+            ],
+            "direction": [
+              90,
+              180
+            ],
+            "speed": [
+              600.0,
+              800.0
+            ],
+            "start rotation": 90,
+            "position offset": [
+              [
+                0,
+                0,
+                -200,
+                0
+              ],
+              [
+                -1200,
+                -500,
+                200,
+                0
+              ]
+            ],
+            "vector field x" : 
+            [
+              [
+                {
+                  "variable" : "y",
+                  "exponent" : 1,
+                  "coefficient" : 500,
+                  "special coefficient" : 0.007,
+                  "special" : "sin"
+                },
+                {
+                  "variable" : "x",
+                  "exponent" : 1,
+                  "coefficient" : 70,
+                  "special coefficient" : 0.0001,
+                  "special" : "cos"
+                }
+              ],
+              [
+                {
+                  "variable" : "y",
+                  "exponent" : 1,
+                  "coefficient" : 700,
+                  "special coefficient" : 0.005,
+                  "special" : "sin"
+                }
+              ]
+            ],
+            "vector field y" : 
+            [
+            [
+              {
+                "variable" : "y",
+                "exponent" : 1,
+                "coefficient" : 0.5
+              }
+            ],
+            [
+              {
+                "variable" : "y",
+                "exponent" : 1,
+                "coefficient" : 0.7
+              }
+            ]
+            ],
+            "lifetime" : 2.8,
+            "rotational velocity" : [50, 70],
+            "rotate by velocity": true      
+          }
+        ]
+      }  
+}

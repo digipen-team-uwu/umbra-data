@@ -1,0 +1,38 @@
+{
+  "type" : "Player",
+  "transform" :
+  {
+    "translation" : [0.0, 0.0, 0.0, 1.0],
+    "rotation" : 0.0,
+    "scale" : [0.2, 0.2, 1.0]
+  },
+  "physics" :
+  {
+    "velocity" : [0.0, 0.0, 0.0, 0.0],
+    "acceleration" : [0.0, 0.0, 0.0, 0.0],
+    "rotational velocity" : 0.0,
+    "drag" : [0.0, 0.0, 0.0, 0.0],
+    "inverse mass" : 1.0
+  },
+  "collider" :
+  {
+    "type" : "polygon",
+    "center":[0.0,0.0],
+    "vertices":[
+      [0.275, 0.5],
+      [-0.275,0.5],
+      [-0.275,-0.35],
+      [-0.125,-0.5],
+      [0.125,-0.5],
+      [0.275,-0.35]
+    ]
+  },
+  "spineSkeleton": {
+    "name": "Sight",
+    "json": "./assets/spine/Sight/Character_Sight_Final.json",
+    "atlas": "./assets/spine/Sight/Character_Sight_Final.atlas",
+    "skin": "",
+    "defaultAnim": "idle",
+    "scaleOffset": 0.0007
+  }
+}

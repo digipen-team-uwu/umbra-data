@@ -1,0 +1,23 @@
+{
+  "type": "ColliderTest",
+  "transform": {
+    "translation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rotation": 0.0,
+    "scale": [
+      100.0,
+      100.0,
+      1.0
+    ]
+  },
+  "shader" : 
+  {
+    "vertex" : "./shaders/pass-thru-pos2d-clr.vert",
+    "fragment" : "./shaders/basic-color.frag"
+  },
+  "texture" : "./assets/missing_texture.png"
+}

@@ -1,0 +1,97 @@
+{
+  "behavior" : 
+{
+  "particleevents" : 
+  [{
+  "sprite" : [
+  {
+  "animation" : 
+  {
+    "frames" :
+    [{ "index" : 0, "duration" : 0.1000 },
+     { "index" : 1, "duration" :  0.1000 },
+     { "index" : 2, "duration" :  0.1000 },
+     { "index" : 3, "duration" :  0.1000 },
+     { "index" : 4, "duration" :  0.1000 },
+     { "index" : 5, "duration" :  0.1000 },
+     { "index" : 6, "duration" :  0.1000},
+     { "index" : 7, "duration" : 0.1000 },
+     { "index" : 8, "duration" : 0.1000 },
+     { "index" : 9, "duration" : 0.1000 },
+     { "index" : 10, "duration" : 0.1000 },
+     { "index" : 11, "duration" : 0.1000 }
+    ],
+    "looping" : false,
+    "current frame" : 0,
+    "running" : true
+  },
+  "texture" : "./assets/particles/VFX_Flame_SpriteSheet.png",
+  "dimensions" : [2, 6]
+  },
+  {
+  "animation" : 
+  {
+    "frames" :
+    [{ "index" : 0, "duration" : 0.05000 },
+     { "index" : 1, "duration" :  0.1000 },
+     { "index" : 2, "duration" :  0.05000 },
+     { "index" : 1, "duration" :  0.1000 },
+     { "index" : 4, "duration" :  0.05000 },
+     { "index" : 5, "duration" :  0.1000 },
+     { "index" : 4, "duration" :  0.05000},
+     { "index" : 7, "duration" : 0.1000 },
+     { "index" : 8, "duration" : 0.05000 },
+     { "index" : 9, "duration" : 0.1000 },
+     { "index" : 10, "duration" : 0.05000 },
+     { "index" : 11, "duration" : 0.1000 }
+    ],
+    "looping" : false,
+    "current frame" : 0,
+    "running" : true
+  },
+  "texture" : "./assets/particles/VFX_Flame_SpriteSheet.png",
+  "dimensions" : [2, 6]
+  },
+  {
+  "animation" : 
+  {
+    "frames" :
+    [{ "index" : 0, "duration" : 0.1000 },
+     { "index" : 1, "duration" :  0.2000 },
+     { "index" : 2, "duration" :  0.1000 },
+     { "index" : 3, "duration" :  0.05000 },
+     { "index" : 4, "duration" :  0.15000 },
+     { "index" : 5, "duration" :  0.12000 },
+     { "index" : 6, "duration" :  0.05000},
+     { "index" : 7, "duration" : 0.15000 },
+     { "index" : 8, "duration" : 0.05000 },
+     { "index" : 9, "duration" : 0.1000 },
+     { "index" : 10, "duration" : 0.01000 },
+     { "index" : 11, "duration" : 0.1000 }
+    ],
+    "looping" : false,
+    "current frame" : 0,
+    "running" : true
+  },
+  "texture" : "./assets/particles/VFX_Flame_SpriteSheet.png",
+  "dimensions" : [2, 6]
+  }],
+  "color"  : [1.0, 1.0, 1.0, 0.8],
+  "end color"  :    [[ 0.0, 0.0, 1.0, 0.5], [0.0, 0.0, 0.7, 0.5]],
+  "color rate" : 1.5,
+  "scale"  :    [[ 20.0, 20.0, 1.0], [25.0, 25.0, 1.0]],
+  "end scale"  : [[ 150.0, 150.0, 1.0], [170.0, 170.0, 1.0]],
+  "scale rate" : [0.2, 0.4],
+  "particles per emission" : 1,
+  "emission rate" : [0.25, 0.37],
+  "direction" : [45, 135],
+
+  "speed" : 50.0,
+  "start rotation" : 270.0,
+  "position offset" : [0, 0, -0.2, 1],
+  "end with animation" : true,
+  "rotate by velocity" : true,
+  "ui particles" : true
+  }]
+}
+}

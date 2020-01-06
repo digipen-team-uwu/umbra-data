@@ -1,0 +1,258 @@
+{
+"objects" : [
+{
+	"type" : "CameraBounds",
+		"transform" :
+		{
+			"translation" : [-766.000000, -69.000000, -1.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [599.000000, 442.000000, 0.000000]
+		},
+		"behavior" : true
+,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [1.000000, 1.000000]			}},
+{
+	"type" : "CameraBounds",
+		"transform" :
+		{
+			"translation" : [487.000000, 69.000000, -1.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [742.000000, 456.000000, 0.000000]
+		},
+		"behavior" : true
+,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [1.000000, 1.000000]			}},
+{
+	"type" : "CameraBounds",
+		"transform" :
+		{
+			"translation" : [-69.000000, -69.000000, -1.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [913.000000, 656.000000, 0.000000]
+		},
+		"behavior" : true
+,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [1.000000, 1.000000]			}},
+{
+	"type" : "ParticleEmitter",
+		"name" : "Solid",
+		"transform" :
+		{
+			"translation" : [500.000000, 0.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [0.000000, 0.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Background",
+		"name" : "Rock_",
+		"transform" :
+		{
+			"translation" : [0.000000, 0.000000, -400.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [2880.000000, 1080.000000, 0.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/area2/1.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Background",
+		"name" : "Lantern",
+		"transform" :
+		{
+			"translation" : [0.000000, 0.000000, -300.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [2880.000000, 1080.000000, 0.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/area2/2.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Background",
+		"name" : "Wall_",
+		"transform" :
+		{
+			"translation" : [0.000000, 0.000000, -200.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [2880.000000, 1080.000000, 0.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/area2/3.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Player",
+		"name" : "Solid",
+		"transform" :
+		{
+			"translation" : [-109.771194, -365.000000, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [-200.000000, 200.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "DYNAMIC",
+			"velocity" : [0.003572, -0.000001, 0.000000, 0.000000],
+			"acceleration" : [0.000000, -800.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Perception",
+		"name" : "Rock_",
+		"transform" :
+		{
+			"translation" : [680.000000, -50.000000, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [400.000000, 400.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Solid",
+		"name" : "BrokenPillars",
+		"transform" :
+		{
+			"translation" : [680.000000, -410.000000, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [700.000000, 330.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Wall_",
+		"transform" :
+		{
+			"translation" : [-100.000000, -530.000000, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [360.000000, 130.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "RockBG",
+		"transform" :
+		{
+			"translation" : [-1000.000000, -500.000000, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [620.000000, 200.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Hazard",
+		"name" : "Death Plane",
+		"transform" :
+		{
+			"translation" : [0.000000, -1742.160034, 0.000000, 0.000000],
+			"rotation" : 0.000000,
+			"scale" : [10000.000000, 100.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"texture" :
+		{
+			"filepath" : "./assets/props/Props_Bricks.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}}]
+}

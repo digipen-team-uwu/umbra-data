@@ -1,68 +1,17 @@
 #version 450 core
 
 layout (location=0) in vec4 vClrCoord;
-
 layout (location=1) in vec2 vTexCoord;
-
 layout (location=2) in vec3 vNormal;
 layout (location=3) in vec3 FragPos;
-
 layout (location=4) flat in uint layer;
-
-layout (location=6) in vec3 material_ambient;
-layout (location=7) in vec3 material_diffuse;
-layout (location=8) in vec3 material_specular;
-layout (location=9) in float material_shininess;
+layout (location=5) in float material_shininess;
 
 layout (location=0) out vec4 fFragClr;
 
-struct PointLight
-{
-  vec3 position;
-  vec3 ambient;
-  vec3 diffuse;
-  vec3 specular;
-  float constant;
-  float linear;
-  float quadratic;
-};
-
-layout (std430, binding = 5) buffer PointLights
-{
-  PointLight pLights[];
-};
-
-struct DirectionalLight
-{
-  vec3 direction;
-  vec3 ambient;
-  vec3 diffuse;
-  vec3 specular;
-};
-
-layout (std430, binding = 6) buffer DirectionalLights
-{
-  DirectionalLight dLights[];
-};
-
-struct SpotLight
-{
-  vec3 position;
-  vec3 direction;
-  vec3 ambient;
-  vec3 diffuse;
-  vec3 specular;
-  float constant;
-  float linear;
-  float quadratic;
-  float cutOff;
-  float outerCutOff;
-};
-
-layout (std430, binding = 7) buffer SpotLights
-{
-  SpotLight spLights[];
-};
+// point light bind at 4
+// directional light bind at 5
+// spot light bind at 6
 
 layout (std140, binding = 0) uniform Light
 {
@@ -73,19 +22,8 @@ layout (std140, binding = 0) uniform Light
   vec3 lightSpecular;
 };
 
-layout (std140, binding = 4) uniform Material
-{
-  vec3 materialAmbient;
-  vec3 materialDiffuse;
-  vec3 materialSpecular;
-  float materialShininess;
-};
-
 uniform sampler2DArray myTexture;
 uniform bool lightOn;
-
-// function prototypes
-vec3 CalculatePointLight(PointLight light, vec3 normal, vec3 fragPos, vec3 viewDir, vec4 texel);
 
 // main
 void main () {
@@ -96,15 +34,8 @@ void main () {
 
   texel.rgb *= texel.a;
 
-  vec3 total_light;
-  for (int i = 0; i < pLights.length(); ++i)
-  {
-    total_light += CalculatePointLight(pLights[i], normalize(vNormal), FragPos,
-						normalize(viewPosition - FragPos), texel);
-  }
-
   // ambient
-  vec3 ambient = lightAmbient * material_ambient * texel.rgb * vClrCoord.rgb;
+  vec3 ambient = lightAmbient * texel.rgb * vClrCoord.rgb;
 
   // diffuse
   vec3 unitNormal = normalize(vNormal);
@@ -129,33 +60,4 @@ void main () {
   {
     fFragClr = texel * vClrCoord;
   }
-}
-
-vec3 CalculatePointLight(PointLight light, vec3 normal, vec3 fragPos, vec3 viewDir, vec4 texel)
-{
-  vec3 lightDirection = normalize(light.position - fragPos);
-
-  // diffuse shading
-  float diffuseShading = max(dot(normal, lightDirection), 0.0);
-
-  // specular highlighting
-  vec3 reflectDir = reflect(-lightDirection, normal);
-
-  // hardcoded material shininess to 128
-  float specularShading = pow(max(dot(viewDir, reflectDir), 0.0), 128.f);
-
-  // attenuation (fading)
-  float dist = length(light.position - fragPos);
-  float attenuation = 1.0 / (light.constant + light.linear * dist + light.quadratic * (dist * dist));
-
-  // combine
-  vec3 ambient = light.ambient * material_ambient * texel.rgb;
-  vec3 diffuse = light.diffuse * diffuseShading * material_diffuse * texel.rgb;
-  vec3 specular = light.specular * specularShading * material_specular * texel.rgb;
-  ambient *= attenuation;
-  diffuse *= attenuation;
-  specular *= attenuation;
-  vec3 final = ambient + diffuse + specular;
-
-  return final;
 }

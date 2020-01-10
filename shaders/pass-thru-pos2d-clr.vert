@@ -14,24 +14,14 @@ layout (location=9) in uvec2 uvScale;
 layout (location=10) in vec2 atlasUV;
 layout (location=11) in vec2 atlasScale;
 layout (location=12) in uint atlasLayer;
-
-layout (location=3) in vec3 Ambient;
-layout (location=14) in vec3 Diffuse;
-layout (location=15) in vec3 Specular;
 layout (location=13) in float Shininess;
 
 layout (location=0) out vec4 vClrCoord;
 layout (location=1) out vec2 vTexCoord;
-
 layout (location=2) out vec3 vNormal;
 layout (location=3) out vec3 FragPos;
-
 layout (location=4) flat out uint layer;
-
-layout (location=6) out vec3 material_ambient;
-layout (location=7) out vec3 material_diffuse;
-layout (location=8) out vec3 material_specular;
-layout (location=9) out float material_shininess;
+layout (location=5) out float material_shininess;
 
 layout (std140, binding = 1) uniform Camera
 {
@@ -93,8 +83,5 @@ void main() {
   // output fragment's position in view coordinates
   FragPos = vec3(model * vec4(vVertexPosition, 1.0));
 
-  material_ambient = Ambient;
-  material_diffuse = Diffuse;
-  material_specular = Specular;
   material_shininess = Shininess;
 }

@@ -2,9 +2,9 @@
   "type" : "Cyclone",
   "transform" :
   {
-    "translation" : [0.0, 0.0, 0.0, 1.0],
+    "translation" : [0.0, 0.0, 500.0, 1.0],
     "rotation" : 0.0,
-    "scale" : [0.2, 0.2, 1.0]
+    "scale" : [2000.0, 2000.0, 1.0]
   },
   "physics" :
   {

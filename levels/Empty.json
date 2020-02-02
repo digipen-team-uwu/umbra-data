@@ -1,0 +1,164 @@
+{
+	"objects": [
+		{
+			"type": "Player",
+			"name": "Player",
+			"transform": {
+				"translation": [
+					1022.442810,
+					979.565002,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					200.000000,
+					200.000000,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "DYNAMIC",
+				"velocity": [
+					-1.811947,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					-800.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"behavior": true,
+			"partial": true
+		},
+		{
+			"type": "Solid",
+			"name": "Ground 1 Collider",
+			"transform": {
+				"translation": [
+					-13449.477539,
+					430.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					50000.000000,
+					899.130005,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"partial": true
+			},
+			"partial": true
+		},
+		{
+			"type": "Perception",
+			"name": "Perception",
+			"transform": {
+				"translation": [
+					3832.751953,
+					1150.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					513.793030,
+					556.607971,
+					1.000000
+				]
+			},
+			"physics": {
+				"type": "STATIC",
+				"velocity": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"acceleration": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"rotational velocity": 0.000000,
+				"drag": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"inverse mass": 0.000000
+			},
+			"behavior": true,
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		},
+		{
+			"type": "Fang_",
+			"name": "Fang",
+			"transform": {
+				"translation": [
+					7735.192871,
+					1150.000000,
+					0.000000,
+					1.000000
+				],
+				"rotation": 0.000000,
+				"scale": [
+					513.793030,
+					556.607971,
+					1.000000
+				]
+			},
+			"behavior": true,
+			"texture": {
+				"filepath": "",
+				"color": [
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				],
+				"uvs": [
+					0.000000,
+					0.000000
+				]
+			}
+		}
+	]
+}

@@ -1,25 +1,25 @@
 {
-  "player_jump": "assets/sound/DeltaBlade/Sword_Throw1.wav",
-  "player_dash": "assets/sound/DeltaBlade/Sword_Throw2.wav",
+  "player_jump": "assets/sound/Umbra/JumpUpGravel.wav",
+  "player_dash": "assets/sound/Umbra/PlayerDash.wav",
   "player_hurt": "assets/sound/Knightmare/sfxType.wav",
   "player_dead": "",
-  "player_land": "assets/sound/DeltaBlade/Player_Land.wav",
-  "player_step": "",
+  "player_land": "assets/sound/Umbra/JumpLandGravel.wav",
+  "player_step": "assets/sound/Umbra/PlayerFootstepGravel_Loop.wav",
   
-  "perception_attack": "",
+  "perception_attack": "assets/sound/Umbra/HearingLunge.wav",
   "perception_alert": "",
-  "perception_hurt": "assets/sound/Knightmare/sfxType.wav",
-  "perception_idle": "",
-  "perception_dead": "",
+  "perception_hurt": "assets/sound/Umbra/HearingHurt.wav",
+  "perception_idle": "assets/sound/Umbra/HearingIdle.wav",
+  "perception_dead": "assets/sound/Umbra/HearingDie.wav",
 
   "fang_attack": "",
   "fang_alert": "",
   "fang_hurt": "assets/sound/Knightmare/sfxType.wav",
-  "fang_idle": "",
-  "fang_dead": "",
+  "fang_run": "assets/sound/Umbra/FangRun.wav",
+  "fang_dead": "assets/sound/Umbra/FangDie.wav",
 
   "music_debug": "assets/sound/beat.wav",
-  "music_calm1": "assets/sound/Knightmare/music/thePeasant.mp3",
+  "music_calm1": "assets/sound/Umbra/CaveAmbience.wav",
   "music_conflict1": "",
   "music_win": ""
 }

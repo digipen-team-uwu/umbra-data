@@ -23,7 +23,8 @@
     "scaleOffset": 0.0005
   },
   "physics":{
-    "type":"dynamic"
+    "type":"dynamic",
+    "inverse mass": 1.0
   },
   "collider" :{
     "type" : "polygon",

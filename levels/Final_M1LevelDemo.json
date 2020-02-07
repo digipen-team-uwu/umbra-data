@@ -1,0 +1,473 @@
+{
+"objects" : [
+{
+	"type" : "Player",
+		"name" : "Player",
+		"transform" :
+		{
+			"translation" : [-7383.000000, 979.565002, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [200.000000, 200.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "DYNAMIC",
+			"velocity" : [0.000000, -0.000001, 0.000000, 0.000000],
+			"acceleration" : [0.000000, -800.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"behavior": true,
+		"partial" : true
+},
+{
+	"type" : "LevelEnd",
+		"name" : "End Crystal",
+		"transform" :
+		{
+			"translation" : [5397.000000, 2341.315918, -502.165009, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [299.182007, 413.313995, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"texture" :
+		{
+			"filepath" : "./assets/props/Props_Crystal_02.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Solid",
+		"name" : "Ground 1 Collider",
+		"transform" :
+		{
+			"translation" : [-13449.477539, 430.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [50000.000000, 899.130005, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 2 Collider",
+		"transform" :
+		{
+			"translation" : [-7938.000000, 1884.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [1000.000000, 2000.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 3 Collider",
+		"transform" :
+		{
+			"translation" : [-6316.000000, 1014.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 4 Collider",
+		"transform" :
+		{
+			"translation" : [-5801.000000, 1135.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 500.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 5 Collider",
+		"transform" :
+		{
+			"translation" : [-5289.000000, 1013.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 6 Collider",
+		"transform" :
+		{
+			"translation" : [-4919.000000, 1702.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [565.000000, 150.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 7 Collider",
+		"transform" :
+		{
+			"translation" : [-3942.000000, 1728.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [709.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 8 Collider",
+		"transform" :
+		{
+			"translation" : [-2770.000000, 1887.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 150.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 9 Collider",
+		"transform" :
+		{
+			"translation" : [-1848.000000, 1361.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 936.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 10 Collider",
+		"transform" :
+		{
+			"translation" : [860.000000, 2622.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [1000.000000, 1000.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 11 Collider",
+		"transform" :
+		{
+			"translation" : [3946.000000, 1391.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [250.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 12 Collider",
+		"transform" :
+		{
+			"translation" : [4559.000000, 1690.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [250.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 13 Collider",
+		"transform" :
+		{
+			"translation" : [5310.000000, 2008.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [500.000000, 250.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Solid",
+		"name" : "Ground 14 Collider",
+		"transform" :
+		{
+			"translation" : [6068.000000, 2896.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [1000.000000, 4000.000000, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"partial" : true},
+		"partial" : true
+},
+{
+	"type" : "Perception",
+		"name" : "Perception1",
+		"transform" :
+		{
+			"translation" : [-263.247986, 1102.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [-513.793030, 556.607971, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"behavior": true,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Perception",
+		"name" : "Perception2",
+		"transform" :
+		{
+			"translation" : [896.752014, 2291.000000, 0.000000, 1.000000],
+			"rotation" : 110.000000,
+			"scale" : [513.793030, 556.607971, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"behavior": true,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Perception",
+		"name" : "Perception3",
+		"transform" :
+		{
+			"translation" : [2533.751953, 1088.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [513.793030, 556.607971, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "STATIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 0.000000
+},
+		"behavior": true,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Fang_",
+		"name" : "Fang1",
+		"transform" :
+		{
+			"translation" : [-4884.862305, 1157.868896, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [513.793030, 556.607971, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "DYNAMIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"behavior": true,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Fang_",
+		"name" : "Fang2",
+		"transform" :
+		{
+			"translation" : [-4576.586914, 1157.868896, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [513.793030, 556.607971, 1.000000]
+		},
+		"physics" :
+		{
+			"type" : "DYNAMIC",
+			"velocity" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"acceleration" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"rotational velocity" : 0.000000,
+			"drag" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"inverse mass" : 1.000000
+},
+		"behavior": true,
+		"texture" :
+		{
+			"filepath" : "",
+			"color" : [0.000000, 0.000000, 0.000000, 0.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Dropped",
+		"name" : "ground1",
+		"transform" :
+		{
+			"translation" : [-6832.000000, 717.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [2020.000000, 500.000000, 1.000000]
+		},
+		"texture" :
+		{
+			"filepath" : "./assets/props/Props_Cave_Floor_Middle.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Dropped",
+		"name" : "BG2_1",
+		"transform" :
+		{
+			"translation" : [-4083.000000, 1820.000000, -500.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [8192.000000, 2048.000000, 1.000000]
+		},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/test area/2.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Dropped",
+		"name" : "BG1",
+		"transform" :
+		{
+			"translation" : [-746.000000, 2661.000000, -716.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [16384.000000, 4096.000000, 1.000000]
+		},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/test area/1.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}},
+{
+	"type" : "Dropped",
+		"name" : "BG2_2",
+		"transform" :
+		{
+			"translation" : [0.000000, 227.000000, 0.000000, 1.000000],
+			"rotation" : 0.000000,
+			"scale" : [8192.000000, 2048.000000, 1.000000]
+		},
+		"texture" :
+		{
+			"filepath" : "./assets/bg/test area/2.png",
+			"color" : [1.000000, 1.000000, 1.000000, 1.000000],
+			"uvs" : [0.000000, 0.000000]			}}]
+}

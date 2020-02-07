@@ -1,10 +1,10 @@
 {
-  "player_jump": "assets/sound/Umbra/JumpUpGravel.wav",
+  "player_jump": "assets/sound/Umbra/JumpUp.wav",
   "player_dash": "assets/sound/Umbra/PlayerDash.wav",
   "player_hurt": "assets/sound/Knightmare/sfxType.wav",
   "player_dead": "",
-  "player_land": "assets/sound/Umbra/JumpLandGravel.wav",
-  "player_step": "assets/sound/Umbra/PlayerFootstepGravel_Loop.wav",
+  "player_land": "assets/sound/Umbra/JumpLand.wav",
+  "player_step": "assets/sound/Umbra/PlayerFootstepLoop.wav",
   
   "perception_attack": "assets/sound/Umbra/HearingLunge.wav",
   "perception_alert": "",
